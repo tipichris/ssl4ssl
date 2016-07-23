@@ -8,6 +8,8 @@ Description
 Create SSL short links when shortening SSL URLs. Eg, when shortening https://www.google.com
 you get https://sho.rt/ggl
 
+I don't actually know if this is necessary or important, I just noticed that goo.gl do it :)
+
 Installation
 ------------
 1. In `/user/plugins`, create a new folder named `ssl4ssl`.
