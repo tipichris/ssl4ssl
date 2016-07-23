@@ -1,5 +1,5 @@
-Random Keywords
-===============
+ssl4ssl
+=======
 
 Plugin for [YOURLS](http://yourls.org). 
 
@@ -23,5 +23,4 @@ I recommend that you also have the following in `user/config.php`
 
 License
 -------
-YOURLS' license, aka *"Do whatever the hell you want with it"*. 
-_YOURLS MIT License_
+MIT License
