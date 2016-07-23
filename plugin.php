@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: SSL for SSL
-Plugin URI: http://yourls.org/
+Plugin URI: https://github.com/tipichris/ssl4ssl
 Description: Create SSL short links for SSL urls
 Version: 0.1
 Author: tipichris
