@@ -33,3 +33,12 @@ function ssl4ssl_filter_row_cells($cells, $keyword, $url, $title, $ip, $clicks, 
     }
     return $cells;
 }
+
+yourls_add_filter( 'yourls_link', 'ssl4ssl_filter_yourls_link');
+function ssl4ssl_filter_yourls_link($link, $keyword) {
+    $url = yourls_get_keyword_longurl($keyword);
+    if (yourls_get_protocol($url) == 'https://') {
+        $link = yourls_set_url_scheme($link, 'https');
+    }
+    return $link;
+}
