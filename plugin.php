@@ -4,7 +4,7 @@ Plugin Name: SSL for SSL
 Plugin URI: https://github.com/tipichris/ssl4ssl
 Description: Create SSL short links for SSL urls
 Version: 0.1
-Author: tipichris
+Author: Chris Hastie
 Author URI: http://www.oak-wood.co.uk
 */
 
